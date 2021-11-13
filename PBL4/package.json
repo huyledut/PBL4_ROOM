@@ -1,0 +1,34 @@
+{
+  "name": "pbl4",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "watch": "sass --watch src/resource/SCSS/app.scss src/public/css/app.css",
+    "beautiful": "prettier --single-quote --trailing-comma all --write \"src/**/*.{js,json,scss}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyledut/PBL4_ROOM.git"
+  },
+  "author": "HuyLeDut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyledut/PBL4_ROOM/issues"
+  },
+  "homepage": "https://github.com/huyledut/PBL4_ROOM#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "express-handlebars": "^5.3.4",
+    "mongoose": "^6.0.12"
+  }
+}
